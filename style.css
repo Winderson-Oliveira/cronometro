@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(58, 58, 78);
+}
+
+div {
+    background-color: rgb(15, 15, 104);
+    text-align: center;
+    margin: 20%;
+    border: black 4px solid;
+    border-radius: 10px;
+    height: 100px;
+    position: relative;
+    width: 200px;
+    left: 300px;
+    
+}
+
+h1 {
+    color: black;
+    border: black 2px solid;
+    width: 180px;
+    margin: 8px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+button {
+   height: 2em;
+   width: 4em;
+   border: none;
+   color: black; 
+   border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.start {
+    background-color: green;
+}
+
+.pause {
+    background-color: yellow;
+}
+
+.stop {
+    background-color: red;
+}
